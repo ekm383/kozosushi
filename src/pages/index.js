@@ -1,20 +1,87 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import SEO from "../components/seo"
+import HeaderIndex from "../components/globals/header/HeaderIndex"
+import Banner from "../components/globals/banner/Banner"
+import Button from "../components/globals/button/Button"
+import Section from "../components/globals/section/Section"
+import LocationBox from "../components/LocationBox"
+import Intro from "../components/Intro"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <SEO
+      title="Home | Kozo Sushi Hawaii"
+      description="You won't forget the tastes of our Japanese sushi, so visit us at our Hawaii restaurant today and see why we're known throughout Honolulu for the freshest flavors around.`,
+      author: `@restaurantmarketinghawaii"
+      keywords={[
+        `Chinese Restaurant`,
+        `Hawaii Restaurant`,
+        `Hawaii Chinese Food`,
+        `Chinese Takeout`,
+      ]}
+    />
+    <HeaderIndex style={{ padding: "4rem 0rem" }}>
+      <Section style={{ width: "100vw", alignItems: "center" }}>
+        <Banner
+          title="Kozo Sushi Hawaii"
+          subtitle="You won't forget the tastes of our Japanese sushi, so visit us at our Hawaii restaurant today and see why we're known throughout Honolulu for the freshest flavors around."
+        >
+          <AniLink fade to="#locations">
+            <Button>ORDER TAKEOUT</Button>
+          </AniLink>
+        </Banner>
+      </Section>
+    </HeaderIndex>
+    <Section
+      id="locations"
+      style={{
+        width: "100vw",
+        marginTop: "1rem",
+        justifyContent: "space-evenly",
+      }}
+    >
+      <LocationBox
+        name="kozo sushi pearlridge"
+        address="98-1005 Moanalua Rd, Aiea, HI 96701"
+        phone="(808) 483-6805"
+        hours1="Mon-Sat 9:30am-9:00pm"
+        hours2="Sun 10:00am-6:00pm"
+        link="/pearlridge"
+      />
+      <LocationBox
+        name="kozo sushi pearl city"
+        address="1029 Makolu St ste c, Pearl City, HI 96782"
+        phone="(808) 455-6805"
+        hours1="Mon-Sun 10:00am-9:00pm"
+        link="/pearlcity"
+      />
+      <LocationBox
+        name="kozo sushi moiliili"
+        address="2334 S King St, Honolulu, HI 96826"
+        phone="(808) 951-5696"
+        hours1="Mon-Thur 9:30am-7:00pm"
+        hours2="Fri-Sat 9:30am-8:00pm"
+        hours3="Sun 9:30am-6:00pm"
+        link="moiliili"
+      />
+      <LocationBox
+        name="kozo sushi kahala mall"
+        address="4618 Kilauea Ave, Honolulu, HI 9681"
+        phone="(808) 738-5696"
+        hours1="Mon-Thur 9:30am-7:00pm"
+        hours2="Fri-Sat 9:30am-8:00pm"
+        hours3="Sun 9:30am-6:00pm"
+        link="kahala"
+      />
+    </Section>
+    <Section id="news" style={{ padding: "4rem 0rem" }}>
+      <Intro
+        heading="Current & Recent News"
+        subheading="03/23/2020 – Our Pearlridge Shopping Center location will be closed for the time being. However, our Pearl City, Moiliili, and Kahala locations are still open for takeout. You may also order delivery via Bite Squad or Uber Eats. Get $10 off your 1st Uber Eats order with our code: eatstogether6j38qf. Mahalo!"
+      />
+    </Section>
   </Layout>
 )
 
