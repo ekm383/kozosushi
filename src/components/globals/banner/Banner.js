@@ -51,7 +51,7 @@ const BannerWrapper = styled.div`
       padding: 6rem 0rem 4rem 0rem;
     }
     .title {
-      font-size: 4rem;
+      font-size: 2rem;
       line-height: 3rem;
       margin-bottom: 1rem;
     }
