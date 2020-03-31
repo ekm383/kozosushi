@@ -42,6 +42,7 @@ const LocationWrapper = styled.div`
   }
   p {
     font-size: 1rem;
+    color: var(--darkGray);
   }
   .menuButton {
     padding: 0.75rem 1rem;
@@ -58,6 +59,13 @@ const LocationWrapper = styled.div`
       border: 1px solid var(--mainColor);
       color: var(--mainColor);
       cursor: pointer;
+    }
+  }
+  @media (max-width: 768px) {
+    h4 {
+      color: var(--mainColor);
+      font-size: 1.2rem;
+      letter-spacing: 1px;
     }
   }
 `

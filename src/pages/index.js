@@ -16,10 +16,11 @@ const IndexPage = () => (
       description="You won't forget the tastes of our Japanese sushi, so visit us at our Hawaii restaurant today and see why we're known throughout Honolulu for the freshest flavors around.`,
       author: `@restaurantmarketinghawaii"
       keywords={[
-        `Chinese Restaurant`,
-        `Hawaii Restaurant`,
-        `Hawaii Chinese Food`,
-        `Chinese Takeout`,
+        `Kozo Sushi Hawaii`,
+        `Kozo Sushi Honolulu`,
+        `Hawaii Sushi`,
+        `Honolulu Sushi`,
+        `Sushi Platter Honolulu`,
       ]}
     />
     <HeaderIndex style={{ padding: "4rem 0rem" }}>
