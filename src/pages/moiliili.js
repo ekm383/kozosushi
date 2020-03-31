@@ -24,7 +24,7 @@ const Moiliili = () => (
       />
       <HeaderIndex style={{ padding: "4rem 0rem" }}>
         <Section style={{ width: "100vw", alignItems: "center" }}>
-          <Banner title="Moiliili"></Banner>
+          <Banner smallTitle="Moiliili"></Banner>
         </Section>
       </HeaderIndex>
       <Section style={{ padding: "6rem 0rem" }}></Section>
