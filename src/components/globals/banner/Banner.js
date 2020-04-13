@@ -24,7 +24,7 @@ const BannerWrapper = styled.div`
   .box {
     flex-basis: 80%;
     text-align: center;
-    padding: 10rem 0rem 10rem 0rem;
+    padding: 6rem 0rem 6rem 0rem;
   }
   .title,
   .subtitle {
