@@ -54,24 +54,26 @@ const IndexPage = () => (
         name="kozo sushi pearl city"
         address="1029 Makolu St ste c, Pearl City, HI 96782"
         phone="(808) 455-6805"
-        hours1="Sun-Thur 9:30am-7:00pm"
-        hours2="Fri & Sat 9:30am-8:00pm"
+        hours1="Mon-Fri 9:30am-8:00pm"
+        hours2="Sun & Sat 10:00am-8:00pm"
         link="/pearlcity"
       />
       <LocationBox
         name="kozo sushi moiliili"
         address="2334 S King St, Honolulu, HI 96826"
         phone="(808) 951-5696"
-        hours1="Sun-Thur 9:30am-7:00pm"
+        hours1="Mon-Thur 9:30am-7:00pm"
         hours2="Fri & Sat 9:30am-8:00pm"
+        hours3="Sun 9:30am-6:00pm"
         link="moiliili"
       />
       <LocationBox
         name="kozo sushi kahala mall"
         address="4618 Kilauea Ave, Honolulu, HI 9681"
         phone="(808) 738-5696"
-        hours1="Sun-Thur 9:30am-7:00pm"
+        hours1="Mon-Thur 9:30am-7:00pm"
         hours2="Fri & Sat 9:30am-8:00pm"
+        hours3="Sun 9:30am-6:00pm"
         link="kahala"
       />
     </Section>
