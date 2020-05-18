@@ -47,8 +47,8 @@ const IndexPage = () => (
         name="kozo sushi pearlridge"
         address="98-1005 Moanalua Rd, Aiea, HI 96701"
         phone="(808) 483-6805"
-        hours1="Mon-Fri 11:00am-7:00pm"
-        hours2="Sun & Sat 12:00pm-6:00pm"
+        hours1="Mon-Sat 11:00am-7:00pm"
+        hours2="Sun 12:00pm-6:00pm"
         link="/pearlridge"
       />
       <LocationBox
