@@ -54,8 +54,7 @@ const IndexPage = () => (
         name="kozo sushi pearl city"
         address="1029 Makolu St ste c, Pearl City, HI 96782"
         phone="(808) 455-6805"
-        hours1="Mon-Fri 10:00am-8:00pm"
-        hours2="Sun & Sat 10:00am-8:00pm"
+        hours1="Daily 10:00am-10:00pm"
         link="/pearlcity"
       />
       <LocationBox
