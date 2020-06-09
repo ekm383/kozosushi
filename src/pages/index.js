@@ -7,7 +7,6 @@ import Banner from "../components/globals/banner/Banner"
 import Button from "../components/globals/button/Button"
 import Section from "../components/globals/section/Section"
 import LocationBox from "../components/LocationBox"
-import Intro from "../components/Intro"
 
 const IndexPage = () => (
   <Layout>
@@ -76,12 +75,6 @@ const IndexPage = () => (
         hours2="Fri & Sat 9:30am-8:00pm"
         hours3="Sun 9:30am-6:00pm"
         link="kahala"
-      />
-    </Section>
-    <Section id="news" style={{ padding: "4rem 0rem" }}>
-      <Intro
-        heading="Current & Recent News"
-        subheading="03/23/2020 – Our Pearlridge Shopping Center location will be closed for the time being. However, our Pearl City, Moiliili, and Kahala locations are still open for takeout. You may also order delivery via Bite Squad or Uber Eats. Get $10 off your 1st Uber Eats order with our code: eatstogether6j38qf. Mahalo!"
       />
     </Section>
   </Layout>
