@@ -778,7 +778,7 @@ const About = () => (
 
             <li>
               <button type="submit" class="button">
-                let's talk
+                submit
               </button>
             </li>
           </ul>
