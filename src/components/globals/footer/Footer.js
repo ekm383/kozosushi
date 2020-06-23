@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import styled from "styled-components"
+import { Link } from "gatsby"
 import { FaInstagram, FaFacebook, FaGoogle } from "react-icons/fa"
 
 class Footer extends Component {
@@ -36,7 +37,13 @@ class Footer extends Component {
               {item.icon}
             </a>
           ))}
-          <p>privacy policy | terms & conditions | careers | contact</p>
+          <p>
+            privacy policy | terms & conditions |{" "}
+            <Link className="link" to="/careers">
+              careers
+            </Link>{" "}
+            | contact
+          </p>
         </div>
       </FooterWrapper>
     )
@@ -61,6 +68,12 @@ const FooterWrapper = styled.div`
     text-align: center;
     width: 100%;
     padding: 4rem 0rem;
+  }
+  a.link {
+    font-size: 0.8rem;
+    &:hover {
+      color: var(--mainColor);
+    }
   }
   a {
     color: var(--white);
