@@ -46,15 +46,16 @@ const IndexPage = () => (
         name="kozo sushi pearlridge"
         address="98-1005 Moanalua Rd, Aiea, HI 96701"
         phone="(808) 483-6805"
-        hours1="Mon-Sat 11:00am-7:00pm"
-        hours2="Sun 12:00pm-6:00pm"
+        hours1="Mon-Thur 10:00am-7:00pm"
+        hours2="Fri & Sat 10:00am-8:00pm"
+        hours3="Sun 10:00am-6:00pm"
         link="/pearlridge"
       />
       <LocationBox
         name="kozo sushi pearl city"
         address="1029 Makolu St ste c, Pearl City, HI 96782"
         phone="(808) 455-6805"
-        hours1="Daily 10:00am-10:00pm"
+        hours1="Daily 10:00am-9:00pm"
         link="/pearlcity"
       />
       <LocationBox
