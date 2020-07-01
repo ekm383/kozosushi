@@ -7,6 +7,7 @@ import Banner from "../components/globals/banner/Banner"
 import Button from "../components/globals/button/Button"
 import Section from "../components/globals/section/Section"
 import LocationBox from "../components/LocationBox"
+import Gallery from "../components/Gallery"
 
 const IndexPage = () => (
   <Layout>
@@ -76,6 +77,9 @@ const IndexPage = () => (
         hours3="Sun 9:30am-6:00pm"
         link="kahala"
       />
+    </Section>
+    <Section style={{ margin: "2rem auto 0rem auto", width: "100vw" }}>
+      <Gallery />
     </Section>
   </Layout>
 )
