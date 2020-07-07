@@ -50,15 +50,14 @@ const IndexPage = () => (
         hours1="Mon-Thur 10:00am-7:00pm"
         hours2="Fri & Sat 10:00am-8:00pm"
         hours3="Sun 10:00am-6:00pm"
-        link="https://www.grindztogo.com/order/restaurant/kozo-sushi-pearlridge-menu/20"
+        link="https://www.grindztogo.com/single.php/order/restaurant/kozo-sushi-pearlridge/20?takeout=1"
       />
       <LocationBox
         name="kozo sushi pearl city"
         address="1029 Makolu St ste c, Pearl City, HI 96782"
         phone="(808) 455-6805"
         hours1="Daily 10:00am-9:00pm"
-        link="https://www.grindztogo.com/order/restaurant/kozo-sushi-pearl-city-menu/19
-        "
+        link="https://www.grindztogo.com/single.php/order/restaurant/kozo-sushi-pearl-city/19?takeout=1"
       />
       <LocationBox
         name="kozo sushi moiliili"
@@ -67,7 +66,7 @@ const IndexPage = () => (
         hours1="Mon-Thur 9:30am-7:00pm"
         hours2="Fri & Sat 9:30am-8:00pm"
         hours3="Sun 9:30am-6:00pm"
-        link="https://www.grindztogo.com/order/restaurant/kozo-sushi-moiliili-menu/21"
+        link="https://www.grindztogo.com/single.php/order/restaurant/kozo-sushi-moiliili/21?takeout=1"
       />
       <LocationBox
         name="kozo sushi kahala mall"
@@ -76,7 +75,7 @@ const IndexPage = () => (
         hours1="Mon-Thur 9:30am-7:00pm"
         hours2="Fri & Sat 9:30am-8:00pm"
         hours3="Sun 9:30am-6:00pm"
-        link="https://www.grindztogo.com/order/restaurant/kozo-sushi-kahala-menu/22"
+        link="https://www.grindztogo.com/single.php/order/restaurant/kozo-sushi-kahala/22?takeout=1"
       />
     </Section>
     <Section style={{ margin: "2rem auto 0rem auto", width: "100vw" }}>
