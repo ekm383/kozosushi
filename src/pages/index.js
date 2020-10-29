@@ -44,13 +44,6 @@ const IndexPage = () => (
       }}
     >
       <LocationBox
-        name="kozo sushi pearlridge"
-        address="98-1005 Moanalua Rd, Aiea, HI 96701"
-        phone="(808) 483-6805"
-        hours1="Daily 11:00am-3:00pm"
-        link="https://www.grindztogo.com/single.php/order/restaurant/kozo-sushi-pearlridge/20?takeout=1"
-      />
-      <LocationBox
         name="kozo sushi pearl city"
         address="1029 Makolu St ste c, Pearl City, HI 96782"
         phone="(808) 455-6805"
