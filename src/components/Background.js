@@ -35,7 +35,7 @@ const BackgroundSection = ({ className, children }) => (
 )
 
 const StyledBackgroundSection = styled(BackgroundSection)`
-  width: 45%;
+  width: 30%;
   margin: 1rem 0rem;
   padding: 3rem 0rem;
   display: flex;

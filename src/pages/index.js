@@ -36,6 +36,43 @@ const IndexPage = () => (
       </Section>
     </HeaderIndex>
     <Section
+      style={{ flexDirection: "column", width: "50%", padding: "3rem 0rem" }}
+    >
+      <h6
+        style={{
+          fontSize: "2rem",
+          color: "var(--mainColor)",
+          textAlign: "center",
+          letterSpacing: "1px",
+        }}
+      >
+        Thanksgiving Day Hours
+      </h6>
+      <p
+        style={{
+          fontSize: "1.2rem",
+          color: "var(--darkGray)",
+          fontWeight: "bolder",
+          marginBottom: "10px",
+          textAlign: "center",
+        }}
+      >
+        9:00am - 5:00pm (Last Pick Up @ 4:30pm)
+      </p>
+      <p
+        style={{
+          fontSize: "1rem",
+          color: "var(--darkGray)",
+          textAlign: "center",
+        }}
+      >
+        We will only accept walk-in orders while supplies last. Please place
+        your online orders in advance, as day-of orders will not be accepted.
+        Online orders need to be placed by Wednesday November 25th by 5pm.
+        Mahalo!
+      </p>
+    </Section>
+    <Section
       id="locations"
       style={{
         width: "100vw",
