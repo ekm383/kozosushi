@@ -46,19 +46,9 @@ const IndexPage = () => (
           letterSpacing: "1px",
         }}
       >
-        Thanksgiving Day Hours
+        Holiday Hours
       </h6>
-      <p
-        style={{
-          fontSize: "1.2rem",
-          color: "var(--darkGray)",
-          fontWeight: "bolder",
-          marginBottom: "10px",
-          textAlign: "center",
-        }}
-      >
-        9:00am - 5:00pm (Last Pick Up @ 4:30pm)
-      </p>
+
       <p
         style={{
           fontSize: "1rem",
@@ -66,10 +56,8 @@ const IndexPage = () => (
           textAlign: "center",
         }}
       >
-        We will only accept walk-in orders while supplies last. Please place
-        your online orders in advance, as day-of orders will not be accepted.
-        Online orders need to be placed by Wednesday November 25th by 5pm.
-        Mahalo!
+        We will close at 4:00PM on the following dates:
+        <br /> December 24th, 25th, 31st, and January 1st. Mahalo.
       </p>
     </Section>
     <Section
