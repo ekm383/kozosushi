@@ -35,31 +35,7 @@ const IndexPage = () => (
         </Banner>
       </Section>
     </HeaderIndex>
-    <Section
-      style={{ flexDirection: "column", width: "50%", padding: "3rem 0rem" }}
-    >
-      <h6
-        style={{
-          fontSize: "2rem",
-          color: "var(--mainColor)",
-          textAlign: "center",
-          letterSpacing: "1px",
-        }}
-      >
-        Holiday Hours
-      </h6>
 
-      <p
-        style={{
-          fontSize: "1rem",
-          color: "var(--darkGray)",
-          textAlign: "center",
-        }}
-      >
-        We will close at 4:00PM on the following dates:
-        <br /> December 24th, 25th, 31st, and January 1st. Mahalo.
-      </p>
-    </Section>
     <Section
       id="locations"
       style={{
